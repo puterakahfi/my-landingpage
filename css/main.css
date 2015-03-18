@@ -1,0 +1,32 @@
+/** overlapping css **/
+body{
+    background: url('http://rumaysho.com/wp-content/themes/phnom-penh-daily/images/pattern/shattered.png');
+    background: url('http://images7.alphacoders.com/343/343482.jpg') no-repeat top center;
+    background: #ECECEC;
+}
+
+.cse input.gsc-search-button, input.gsc-search-button {
+    font-family: inherit;
+    font-size: 11px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 8px;
+    height: 37px;
+    min-width: 64px;
+    background-color: #333333;
+    border: 1px solid #000;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+sup {
+    top: -0.8em;
+}
+
+sub, sup {
+    font-size: 55%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}

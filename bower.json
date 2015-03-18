@@ -1,0 +1,31 @@
+{
+  "name": "yukngaji-cse",
+  "version": "0.1",
+  "homepage": "https://github.com/puterakahfi/aswade",
+  "authors": [
+    "puterakahfi <puterakahfi@gmail.com>"
+  ],
+  "description": "Search engine custom untuk menjadi info kajian",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.3.10",
+    "fontawesome": "~4.3.0",
+    "angular-ui-router": "~0.2.13",
+    "karma-jasmine": "~0.1.0",
+    "bootstrap-material-design": "~0.2.2",
+    "angular-material": "~0.8.3",
+    "angular-bootstrap": "~0.12.1",
+    "foundation": "~5.5.1"
+  }
+}
