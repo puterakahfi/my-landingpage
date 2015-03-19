@@ -1,4 +1,4 @@
-var app = angular.module('cjlabsLandingPage', ['ui.router']);
+var app = angular.module('moslemLp', ['ui.router','ngResource']);
 app.config(function ($stateProvider, $urlRouterProvider) {
     //
     // For any unmatched url, redirect to /state1
@@ -14,20 +14,19 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller('berandaCtrl', function ($scope, $log) {
+app.controller('berandaCtrl', function ($scope, $http, $log, $resource) {
 
-    $scope.getGitInfo = function ()
-    {
-        $http.get("https://api.github.com/users/puterakahfi")
-                .success(function (data) {
-                    $scope.user = data;
-                    $log.info(data);
-                    $scope.loaded = true;
-                })
-                .error(function () {
-                    $scope.userNotFound = true;
-                });
-    }
+    $http.get("https://api.github.com/users/puterakahfi")
+            .success(function (data) {
+                $scope.user = data;
+                console.log(data);
+                $scope.loaded = true;
+            })
+            .error(function () {
+                alert('errot');
+                $scope.userNotFound = true;
+            });
+
 });
 
 
