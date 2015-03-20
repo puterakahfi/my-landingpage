@@ -2,8 +2,8 @@
 
 /** overlapping css **/
 body{
- 
     font-family: 'Roboto','Helvetica',sans-serif;
+
 }
 
 .cse input.gsc-search-button, input.gsc-search-button {
@@ -40,7 +40,7 @@ sub, sup {
     margin-bottom:15px;
     width:100%;
     background:#eee;
-    height:35px;
+    height:30px;
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
@@ -76,8 +76,8 @@ sub, sup {
     display:block;
     background:rgba(0, 0, 0, 0.1);
     padding:0 20px;
-    height:35px;
-    line-height:35px;
+    height:30px;
+    line-height:30px;
     -webkit-border-top-left-radius:3px;
     -webkit-border-bottom-left-radius:3px;
     -moz-border-radius-topleft:3px;
@@ -87,7 +87,7 @@ sub, sup {
 }
 
 .skillbar-bar {
-    height:35px;
+    height:30px;
     width:0px;
     background:#6adcfa;
     border-radius:3px;
@@ -106,78 +106,3 @@ sub, sup {
     color:rgba(0, 0, 0, 0.4);
 }
 
-.container{
-    background: white;
-}
-
-
-
-.e-campuz {
-    background: transparent;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-}
-
-
-.e-campuz .ray1 {
-    margin: 0 0 0 30px;
-}
-.e-campuz .ray2 {
-    margin: 0 0 0 126px;
-}
-.e-campuz .ray3 {
-    margin: 0 0 0 -190px;
-}
-.e-campuz .ray {
-    left: -35%;
-}
-.e-campuz .ray-bottom {
-    left: 95%;
-}
-.ray {
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: 2;
-    width: 560px;
-    height: 500px;
-    background-color: rgba(255, 255, 255, 0);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.15));
-    -webkit-transform: skewX(-35deg);
-    -moz-transform: skewX(-35deg);
-    -ms-transform: skewX(-35deg);
-    -o-transform: skewX(-35deg);
-    transform: skewX(-35deg);
-}
-.ray-bottom {
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    z-index: 2;
-    width: 560px;
-    height: 500px;
-    background-color: rgba(255, 255, 255, 0);
-    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05));
-    -webkit-transform: skewX(145deg) scaleY(-1);
-    -moz-transform: skewX(145deg) scaleY(-1);
-    -ms-transform: skewX(145deg) scaleY(-1);
-    -o-transform: skewX(145deg)scaleY(-1);
-    transform: skewX(145deg) scaleY(-1);
-}
-
-.container .title{
-    color:#939393;
-}
-
-.top-bar{
-    height: 3.5em;
-}
-
-
-.top-bar-section ul li > a{
-    font-family: 'Roboto','Helvetica',sans-serif;
-    font-weight: bold;
-}

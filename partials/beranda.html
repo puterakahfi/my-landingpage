@@ -2,100 +2,144 @@
 <div ng-controller="berandaCtrl">
 
 
+    <br/>
 
 
 
+    <div class="container">
 
+        <div role="tabpanel mdc-text-grey-500">
 
-    <div class="row container">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs  mdc-bg-grey-300" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+            </ul>
 
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">...</div>
+                <div role="tabpanel" class="tab-pane" id="profile">...</div>
+                <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                <div role="tabpanel" class="tab-pane" id="settings">...</div>
+            </div>
 
-        <div class="large-12 columns text-center "><br/>
-            <h5 class="title"><i class="fa fa-tasks"></i> Skills Meter </h5>
         </div>
 
-        <div class="large-6 columns text-center">
+        <div class="large-12 columns text-center ">
 
-            <div class="skillbar clearfix " data-percent="30%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Symfony 2</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">30%</div>
-            </div>
-            <!---  CSS --->
-            <div class="skillbar clearfix " data-percent="85%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span><i class="fa fa-css3"></i> CSS</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">85%</div>
-            </div>
-            <!---- /CSS --->
-            <!----- jQuery  ------->
-            <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Jquery</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">60%</div>
+            <ul class="tabs" data-tab>
+                <li class="tab-title active"><a href="#panel1" class="label">Php Framework</a></li>
+                <li class="tab-title"><a href="#panel2">Css Framework</a></li>
+                <li class="tab-title"><a href="#panel3">JS Framework</a></li>
+                <li class="tab-title"><a href="#panel4">Web Testing</a></li>
+                <li class="tab-title"><a href="#panel5">Others</a></li>
+            </ul>
+            <div class="tabs-content">
+                <div class="content active" id="panel1">
+
+
+                    <div class="skillbar clearfix " data-percent="30%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Symfony 2</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">30%</div>
+                    </div>
+                    <!---  CSS --->
+                    <div class="skillbar clearfix " data-percent="70%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span><i class="fa fa-css3"></i> Codeigniter</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                    <!---- /CSS --->
+                    <!----- jQuery  ------->
+                    <div class="skillbar clearfix " data-percent="25%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Laravel 5</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">20%</div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="55%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>GTFW</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">55%</div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="50%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>CAD</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div>
+                </div>
+                <div class="content" id="panel2">
+
+                    <div class="skillbar clearfix " data-percent="45%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Foundation</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">45%</div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="60%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Twitter Bootstrap</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">60%</div>
+                    </div>
+                </div>
+                <div class="content" id="panel3">
+
+                    <div class="skillbar clearfix " data-percent="25%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>AngularJs</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">20%</div>
+                    </div>
+
+                    <div class="skillbar clearfix " data-percent="60%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Jquery </span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">60%</div>
+                    </div>
+                </div>
+                <div class="content" id="panel4">
+                    <div class="skillbar clearfix " data-percent="30%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Phpunit</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">30%</div>
+                    </div>
+                    <div class="skillbar clearfix " data-percent="10%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Behat</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">10%</div>
+                    </div>
+                    <div class="skillbar clearfix " data-percent="30%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Codeception</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">30%</div>
+                    </div>
+
+                </div>
+
+                <div class="content" id="panel5">
+                    <div class="skillbar clearfix " data-percent="40%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Git</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">40%</div>
+                    </div>
+                    <div class="skillbar clearfix " data-percent="45%">
+                        <div class="skillbar-title" style="background: #00a8ff;"><span>Svn</span></div>
+                        <div class="skillbar-bar" style="background: #00a8ff;"></div>
+                        <div class="skill-bar-percent">45%</div>
+                    </div>
+
+                </div>
             </div>
 
-            <div class="skillbar clearfix " data-percent="30%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>AngularJs</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">30%</div>
-            </div>
-            
-            
-            <div class="skillbar clearfix " data-percent="45%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Foundation</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">45%</div>
-            </div>
-            
-            <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Twitter Bootstrap</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">60%</div>
-            </div>
-        </div>
-
-        <div class="large-6 columns text-center">
-
-            <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span><i class="fa fa-git"></i></span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">40%</div>
-            </div>
-            <!---  CSS --->
-            <div class="skillbar clearfix " data-percent="70%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Codeigniter</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">70%</div>
-            </div>
-
-            <div class="skillbar clearfix " data-percent="60%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Svn</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">60%</div>
-            </div>
-            <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Unit Testing</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">40%</div>
-            </div>
-             <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Photoshop</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">40%</div>
-            </div>
-             <div class="skillbar clearfix " data-percent="40%">
-                <div class="skillbar-title" style="background: #00a8ff;"><span>Ilustrator</span></div>
-                <div class="skillbar-bar" style="background: #00a8ff;"></div>
-                <div class="skill-bar-percent">40%</div>
-            </div>
-            <!---- /CSS --->
         </div>
 
     </div>
-    
-    
-    
+
+
+
 
 </div><br/>
 
@@ -104,7 +148,7 @@
 
 <script>
     $(function () {
-        $(document).foundation();
+        $(document).foundation('tab', 'reflow');
 
         jQuery('.skillbar').each(function () {
             jQuery(this).find('.skillbar-bar').animate({

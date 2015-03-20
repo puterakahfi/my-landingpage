@@ -1,4 +1,9 @@
-@import "bootstrap.css";
 @import "../bower_components/fontawesome/css/font-awesome.min.css";
-@import "../bower_components/foundation/css/foundation.css";
+
+@import "../bower_components/bootstrap/dist/css/bootstrap.min.css";
+
+@import "../bower_components/bootstrap-material-design/dist/css/material.css";
+@import "../bower_components/material-design-color-palette/css/material-design-color-palette.min.css";
 @import "main.css";
+
+

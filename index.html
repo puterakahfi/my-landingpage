@@ -28,35 +28,76 @@
     <body>
 
         <div ng-app="moslemLp" class="e-campuz">
+            
+            <div class=" navbar navbar-inverse">
+                <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="javascript:void(0)"><b>Putera Kahfi</b></a>
+                </div>
+                <div class="navbar-collapse collapse navbar-responsive-collapse  ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="javascript:void(0)">Active</a></li>
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Dropdown header</li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                                <li><a href="javascript:void(0)">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <input type="text" class="form-control col-lg-8" placeholder="Search">
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="javascript:void(0)">Link</a></li>
+                        <li class="dropdown">
+                            <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="javascript:void(0)">Action</a></li>
+                                <li><a href="javascript:void(0)">Another action</a></li>
+                                <li><a href="javascript:void(0)">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="javascript:void(0)">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+
 
 
             <div ui-view></div>
 
-
-
-            <footer class="row">
-
-                <div class="large-12 columns center-block right">
-                    <ul class="inline-list">
-                        <li><a href="#"><span class="fa fa-linkedin-square fa-3x"></span></a></li>
-                        <li><a href="#"><span class="fa fa-facebook-square fa-3x"></span></a></li>
-                        <li><a href="#"><span class="fa fa-twitter-square fa-3x"></span></a></li>
-                        <li><a href="#"><span class="fa fa-google-plus-square fa-3x"></span></a></li>
-                    </ul>
-                </div>
-            </footer>
         </div>
 
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="bower_components/bootstrap-material-design/dist/js/ripples.min.js"></script>
+        <script src="bower_components/bootstrap-material-design/dist/js/material.min.js"></script>
+        <script src="js/app.js"></script>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <script src="bower_components/angular/angular.min.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
-    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="js/app.js"></script>
+        <script>
+            $.material.init()
+        </script>
 
-</body>
+    </body>
 </html>
 
 
